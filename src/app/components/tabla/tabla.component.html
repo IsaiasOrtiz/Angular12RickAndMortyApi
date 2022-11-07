@@ -1,0 +1,7 @@
+<div class="container">
+<nav aria-label="Page navigation example" >
+    <ul class="pagination" > 
+      <li class="page-item"  *ngFor="let n of numSequence(pages);let i = index;"><a class="page-link" (click)="emitirEvento(i)" *ngIf="i!=0">{{i}}</a></li>
+    </ul>
+  </nav>
+</div>
